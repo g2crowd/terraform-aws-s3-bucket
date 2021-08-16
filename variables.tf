@@ -165,3 +165,9 @@ variable "restrict_public_buckets" {
   type        = bool
   default     = false
 }
+
+variable "environment_folders" {
+  description = "List of environment folders to create."
+  type        = any
+  default     = []
+}
